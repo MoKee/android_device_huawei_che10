@@ -2,5 +2,9 @@
   {
     "repository": "android_device_huawei_msm8916-common",
     "target_path": "device/huawei/msm8916-common"
+  },
+  {
+    "repository": "android_vendor_huawei_che10",
+    "target_path": "vendor/huawei/che10"
   }
 ]
