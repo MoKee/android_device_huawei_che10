@@ -19,11 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/huawei/che10/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MoKee stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.mk.maintainer=dianlujitao
 
 PRODUCT_DEVICE := che10
-PRODUCT_NAME := lineage_che10
+PRODUCT_NAME := mk_che10
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := che10
 PRODUCT_MANUFACTURER := HUAWEI
