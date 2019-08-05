@@ -22,7 +22,7 @@
 include device/huawei/msm8916-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := che10,Che1-CL10
+TARGET_OTA_ASSERT_DEVICE := che10,Che1-CL10,C8817D,c8817d
 
 # inherit from the proprietary version
 include vendor/huawei/che10/BoardConfigVendor.mk
